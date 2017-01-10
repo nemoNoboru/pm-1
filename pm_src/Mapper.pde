@@ -1,8 +1,8 @@
 class Mapper {
   Module m;
   
-  public void Mapper(){
-    m = new Module();
+  public Mapper(){
+    m = new fmSynth();
   }
   
   public void routeButtns(int pitch){
@@ -88,4 +88,5 @@ class Mapper {
       m.c8(value);
       break;
     }
+  }
 }
